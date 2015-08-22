@@ -35,11 +35,13 @@ In general, all the steps are described in the code in great detail (in comments
 
 
 0. I loaded the following files as data tables: 
+
 * * Column names for measurements: features.txt
 * * Subject (volunteers') ids: subject_train.txt, subject_test.txt
 * * Activity ids: y_train.txt, y_test.txt
 * * Activity labels: activity_labels.txt
 * * Measurements: X_train.txt, X_test.txt
+
 1. First I the features.txt file and extracted the feature names strings. Using a regular expression (with grep function), I selected only those that represent mean or standard deviation. As a result I obtained the list indices. 
 
 2. Using the indices vector, I made subsets of the test and train tables choosing only columns that contain mean and standard deviation.
