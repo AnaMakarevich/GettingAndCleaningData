@@ -1,6 +1,4 @@
-# Dillinger
-
-
+# How to use this script
 
 ## Prerequisites
 
