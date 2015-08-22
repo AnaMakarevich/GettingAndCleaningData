@@ -42,6 +42,7 @@ Here is the list of the files I used to create a tidy data set:
 * Activity labels: activity_labels.txt
 * Measurements: X_train.txt, X_test.txt
 
+
 1. First I the features.txt file and extracted the feature names strings. Using a regular expression (with grep function), I selected only those that represent mean or standard deviation. As a result I obtained the list indices. 
 
 2. Using the indices vector, I made subsets of the test and train tables choosing only columns that contain mean and standard deviation.
