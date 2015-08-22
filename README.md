@@ -2,17 +2,10 @@
 
 ## What is it?
 
-This is a script that cleans the data and runs very simple analysis on it. 
-(http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
-The original data set contains the results of the activity recognition experiment carried out with 30 volunteers. Here is the description from the original readme file (for the original data set):
+This is a script that cleans the data and runs very simple analysis on it. The original description of the data set could be found [here](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
-
-"Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data.
-
-The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. See 'features_info.txt' for more details."
-
-
-
+The original data set contains the results of the activity recognition experiment carried out with 30 volunteers: each of them performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. These activity labels are found in the activityType column for each observation.  
+The observations in the original data set are data from the embedded accelerometer and gyroscope which were used to capture 3-axial linear acceleration and 3-axial angular velocity. The resulting data set represents the means for each person for each activity for mean measurements. 
 
 ## Prerequisites
 
